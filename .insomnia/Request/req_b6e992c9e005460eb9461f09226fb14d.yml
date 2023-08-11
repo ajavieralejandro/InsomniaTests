@@ -1,0 +1,22 @@
+_id: req_b6e992c9e005460eb9461f09226fb14d
+type: Request
+parentId: fld_73ab50e1fa3e408a97aae412d18b5ed0
+modified: 1690308112317
+created: 1690308087886
+url: https://api.trello.com/1/boards/{{ _.BoarId }}?key={{ _.Key }}&token={{
+  _.Token }}
+name: Update Board with no Fields
+description: ""
+method: PUT
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1690228417056.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

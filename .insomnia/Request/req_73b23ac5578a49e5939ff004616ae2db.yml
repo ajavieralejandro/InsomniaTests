@@ -1,0 +1,37 @@
+_id: req_73b23ac5578a49e5939ff004616ae2db
+type: Request
+parentId: fld_73ab50e1fa3e408a97aae412d18b5ed0
+modified: 1690830597324
+created: 1690228964410
+url: https://api.trello.com/1/boards
+name: Create Board
+description: ""
+method: POST
+body: {}
+parameters:
+  - name: name
+    value: Insomnia Board
+    disabled: false
+    id: pair_4849b46f844c4af29b68e0e291fb8763
+  - name: key
+    value: "{{ _.Key }}"
+    disabled: false
+    id: pair_8f1b0141022b403181c71417fc46de7d
+  - name: token
+    value: "{{ _.Token }}"
+    disabled: false
+    id: pair_004f2f24e85a4a07b99ba2694b77c0f6
+  - id: pair_ac4f97ba406d43d4b1b838be057f37bb
+    name: ""
+    value: ""
+    description: ""
+headers: []
+authentication: {}
+metaSortKey: -1690228417306.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

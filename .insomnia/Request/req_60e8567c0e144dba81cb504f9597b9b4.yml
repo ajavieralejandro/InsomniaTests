@@ -1,0 +1,21 @@
+_id: req_60e8567c0e144dba81cb504f9597b9b4
+type: Request
+parentId: fld_2a188228a03a40d19787bb00307bf3f1
+modified: 1691771931196
+created: 1691771876539
+url: https://api.trello.com/1/boards/?name={{ _.BoardName }}&key=&token=
+name: Invalid Key Create Board
+description: ""
+method: POST
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1691771553433
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

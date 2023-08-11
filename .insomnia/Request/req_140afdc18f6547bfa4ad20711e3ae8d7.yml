@@ -1,0 +1,29 @@
+_id: req_140afdc18f6547bfa4ad20711e3ae8d7
+type: Request
+parentId: fld_73ab50e1fa3e408a97aae412d18b5ed0
+modified: 1690237187251
+created: 1690237156130
+url: https://api.trello.com/1/boards/{{ _.BoarId }}?key={{ _.Key }}&token={{
+  _.Token }}
+name: Update Board desc
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"desc" : "esto es una desc"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1690228417156.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

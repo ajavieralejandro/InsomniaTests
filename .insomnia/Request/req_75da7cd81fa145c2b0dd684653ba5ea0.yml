@@ -1,0 +1,21 @@
+_id: req_75da7cd81fa145c2b0dd684653ba5ea0
+type: Request
+parentId: fld_2a188228a03a40d19787bb00307bf3f1
+modified: 1691771976090
+created: 1691771943635
+url: https://api.trello.com/1/boards/:id?key=&token=
+name: Unauthorized get Board
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1691771553383
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

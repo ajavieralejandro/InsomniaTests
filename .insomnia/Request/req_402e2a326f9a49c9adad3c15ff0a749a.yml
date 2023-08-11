@@ -1,0 +1,22 @@
+_id: req_402e2a326f9a49c9adad3c15ff0a749a
+type: Request
+parentId: fld_73ab50e1fa3e408a97aae412d18b5ed0
+modified: 1690393838102
+created: 1690393787933
+url: https://api.trello.com/1/boards/{{ _.BoarId }}/calendarKey/generate?key={{
+  _.Key }}&token={{ _.Token }}
+name: Generate Calendar Key
+description: ""
+method: POST
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1690228416606.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

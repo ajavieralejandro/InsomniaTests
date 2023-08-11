@@ -1,0 +1,29 @@
+_id: req_28e39557fd2843b78668a15a3f5a251b
+type: Request
+parentId: fld_73ab50e1fa3e408a97aae412d18b5ed0
+modified: 1690232957640
+created: 1690227845359
+url: https://api.trello.com/1/members/me/boards
+name: Auth
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: key
+    value: "{{ _.Key }}"
+    disabled: false
+    id: pair_902a401e6d184ce5b520e24fe8c92a6c
+  - name: token
+    value: "{{ _.Token }}"
+    disabled: false
+    id: pair_00c021665c17409ebc8d60eab46abb33
+headers: []
+authentication: {}
+metaSortKey: -1690228417356.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,29 @@
+_id: req_fe18b9f54d1049d1b7f69440c8a5c3aa
+type: Request
+parentId: fld_73ab50e1fa3e408a97aae412d18b5ed0
+modified: 1690392638904
+created: 1690341351333
+url: https://api.trello.com/1/boards/{{ _.BoarId }}/lists
+name: Get Lists on Board
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_c940278b4b394d16ac165dd081fcf0ec
+    name: key
+    value: "{{ _.Key }}"
+    description: ""
+  - id: pair_1e6020b4a1e74145a97530fef6ff478b
+    name: token
+    value: "{{ _.Token }}"
+    description: ""
+headers: []
+authentication: {}
+metaSortKey: -1690228416856.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

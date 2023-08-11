@@ -1,0 +1,26 @@
+_id: req_4e81a94f664c447780c461dacfc995a0
+type: Request
+parentId: fld_73ab50e1fa3e408a97aae412d18b5ed0
+modified: 1690393263672
+created: 1690393222920
+url: https://api.trello.com/1/boards/{{ _.BoarId }}/members?key={{ _.Key
+  }}&token={{ _.Token }}
+name: Get Member of a Board
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_94f19efc0e6448c7aded579637c78485
+    name: ""
+    value: ""
+    description: ""
+headers: []
+authentication: {}
+metaSortKey: -1690228416656.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

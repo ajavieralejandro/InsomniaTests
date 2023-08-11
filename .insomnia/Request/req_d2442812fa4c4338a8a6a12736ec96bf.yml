@@ -1,0 +1,21 @@
+_id: req_d2442812fa4c4338a8a6a12736ec96bf
+type: Request
+parentId: fld_2a188228a03a40d19787bb00307bf3f1
+modified: 1691773309103
+created: 1691773269191
+url: https://api.trello.com/1/boards/?key={{ _.Key }}&token={{ _.Token }}
+name: Get Board with no Id
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1691773269191
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

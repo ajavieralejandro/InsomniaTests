@@ -1,0 +1,31 @@
+_id: req_fef5e4c4def24520a2e2f8cc72ea4fb5
+type: Request
+parentId: fld_73ab50e1fa3e408a97aae412d18b5ed0
+modified: 1690308067095
+created: 1690307959831
+url: https://api.trello.com/1/boards/{{ _.BoarId }}?key={{ _.Key }}&token={{
+  _.Token }}
+name: Update Board Various Fields
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "name" : "Javier Board 2",
+        "desc": "Javier Alejandro",
+        "closed" : "true"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1690228417106.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

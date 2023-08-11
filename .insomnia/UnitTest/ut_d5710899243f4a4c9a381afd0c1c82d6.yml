@@ -1,0 +1,16 @@
+_id: ut_d5710899243f4a4c9a381afd0c1c82d6
+type: UnitTest
+parentId: uts_be8bdb24d42e49b2be324479fd9a8598
+modified: 1690237031287
+created: 1690228633664
+requestId: req_28e39557fd2843b78668a15a3f5a251b
+name: Returns 200
+code: |-
+  //AUTH 
+  const response1 = await insomnia.send();
+  expect(response1.status).to.equal(200);
+  /*
+  const response2 = await insomnia.send('req_73b23ac5578a49e5939ff004616ae2db');
+  expect(response2.status).to.equal(200);
+  const response3 = await insomnia.send('req_5ee9b8eadc24446d9855c42764ffa93d');
+  expect(response3.status).to.equal(200);*/

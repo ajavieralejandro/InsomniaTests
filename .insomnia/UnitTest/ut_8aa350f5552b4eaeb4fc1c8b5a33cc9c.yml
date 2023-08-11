@@ -1,0 +1,10 @@
+_id: ut_8aa350f5552b4eaeb4fc1c8b5a33cc9c
+type: UnitTest
+parentId: uts_be8bdb24d42e49b2be324479fd9a8598
+modified: 1690394076210
+created: 1690394018334
+requestId: req_73b23ac5578a49e5939ff004616ae2db
+name: Create a Board
+code: |-
+  const response1 = await insomnia.send();
+  expect(response1.status).to.equal(200);

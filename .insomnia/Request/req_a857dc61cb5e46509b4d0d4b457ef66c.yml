@@ -1,0 +1,29 @@
+_id: req_a857dc61cb5e46509b4d0d4b457ef66c
+type: Request
+parentId: fld_73ab50e1fa3e408a97aae412d18b5ed0
+modified: 1690393102641
+created: 1690393023540
+url: https://api.trello.com/1/boards/{{ _.BoarId }}/labels?
+name: Get Lists of Labels
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_b7990f5eea51453481c5cb23db25231f
+    name: key
+    value: "{{ _.Key }}"
+    description: ""
+  - id: pair_016ab077c6dc4aa98f4cd04784b79909
+    name: token
+    value: "{{ _.Token }}"
+    description: ""
+headers: []
+authentication: {}
+metaSortKey: -1690228416706.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

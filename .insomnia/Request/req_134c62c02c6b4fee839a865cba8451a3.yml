@@ -1,0 +1,29 @@
+_id: req_134c62c02c6b4fee839a865cba8451a3
+type: Request
+parentId: fld_73ab50e1fa3e408a97aae412d18b5ed0
+modified: 1690392643226
+created: 1690341799943
+url: https://api.trello.com/1/boards/{{ _.BoarId }}/lists/closed
+name: Get Closed Lists
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_91d906e4c5fd4856b0475d2f6423ef46
+    name: key
+    value: "{{ _.Key }}"
+    description: ""
+  - id: pair_bf6779b73df3497e8fe79803d492c138
+    name: token
+    value: "{{ _.Token }}"
+    description: ""
+headers: []
+authentication: {}
+metaSortKey: -1690228416806.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

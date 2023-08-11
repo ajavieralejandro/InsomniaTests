@@ -1,0 +1,22 @@
+_id: req_b13d9d17f97842dcb82114376d39523f
+type: Request
+parentId: fld_2a188228a03a40d19787bb00307bf3f1
+modified: 1691771845301
+created: 1691771761956
+url: https://api.trello.com/1/boards/{{ _.InvalidId }}?key={{ _.Key }}&token={{
+  _.Token }}
+name: Get a Board with Invalid Id
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1691771761956
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
