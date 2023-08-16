@@ -1,10 +1,9 @@
 _id: req_441c116013b84dc4a1976e52b272bcea
 type: Request
 parentId: fld_73ab50e1fa3e408a97aae412d18b5ed0
-modified: 1690393950839
+modified: 1692129541377
 created: 1690393916220
-url: https://api.trello.com/1/boards/{{ _.BoarId }}?key={{ _.Key }}&token={{
-  _.Token }}
+url: https://api.trello.com/1/boards/{{ _.id }}?key={{ _.Key }}&token={{ _.Token }}
 name: Delete Board
 description: ""
 method: DELETE

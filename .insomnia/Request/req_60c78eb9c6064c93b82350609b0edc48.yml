@@ -1,10 +1,10 @@
 _id: req_60c78eb9c6064c93b82350609b0edc48
 type: Request
 parentId: fld_73ab50e1fa3e408a97aae412d18b5ed0
-modified: 1690393901566
+modified: 1692128340839
 created: 1690393850356
-url: https://api.trello.com/1/boards/{{ _.BoarId }}/cards?key={{ _.Key
-  }}&token={{ _.Token }}
+url: https://api.trello.com/1/boards/{{ _.id }}/cards?key={{ _.Key }}&token={{
+  _.Token }}
 name: Get Cards on Board
 description: ""
 method: GET

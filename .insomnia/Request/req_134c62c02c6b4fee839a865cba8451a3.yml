@@ -1,9 +1,9 @@
 _id: req_134c62c02c6b4fee839a865cba8451a3
 type: Request
 parentId: fld_73ab50e1fa3e408a97aae412d18b5ed0
-modified: 1690392643226
+modified: 1692118745646
 created: 1690341799943
-url: https://api.trello.com/1/boards/{{ _.BoarId }}/lists/closed
+url: https://api.trello.com/1/boards/{{ _.id }}/lists/closed
 name: Get Closed Lists
 description: ""
 method: GET

@@ -1,9 +1,9 @@
 _id: req_68640ffe5aeb4be1917c200b336783a1
 type: Request
 parentId: fld_73ab50e1fa3e408a97aae412d18b5ed0
-modified: 1690339485223
+modified: 1692117240093
 created: 1690308192230
-url: https://api.trello.com/1/boards/{{ _.BoarId }}/desc?key={{ _.Key
+url: https://api.trello.com/1/boards/{{ _.BoardId }}/desc?key={{ _.Key
   }}&token={{ _.Token }}
 name: Get Board desc
 description: ""

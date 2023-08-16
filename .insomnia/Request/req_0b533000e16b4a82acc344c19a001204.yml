@@ -1,9 +1,9 @@
 _id: req_0b533000e16b4a82acc344c19a001204
 type: Request
 parentId: fld_73ab50e1fa3e408a97aae412d18b5ed0
-modified: 1690308176522
+modified: 1691781019531
 created: 1690308131557
-url: https://api.trello.com/1/boards/{{ _.BoarId }}
+url: https://api.trello.com/1/boards/{{ _.id }}
 name: Get Updated Board
 description: ""
 method: GET

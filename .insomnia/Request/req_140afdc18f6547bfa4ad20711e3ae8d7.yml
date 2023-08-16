@@ -1,9 +1,9 @@
 _id: req_140afdc18f6547bfa4ad20711e3ae8d7
 type: Request
 parentId: fld_73ab50e1fa3e408a97aae412d18b5ed0
-modified: 1690237187251
+modified: 1692117151625
 created: 1690237156130
-url: https://api.trello.com/1/boards/{{ _.BoarId }}?key={{ _.Key }}&token={{
+url: https://api.trello.com/1/boards/{{ _.BoardId }}?key={{ _.Key }}&token={{
   _.Token }}
 name: Update Board desc
 description: ""

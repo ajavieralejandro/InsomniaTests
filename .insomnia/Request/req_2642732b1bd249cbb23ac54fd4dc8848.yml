@@ -1,10 +1,9 @@
 _id: req_2642732b1bd249cbb23ac54fd4dc8848
 type: Request
 parentId: fld_73ab50e1fa3e408a97aae412d18b5ed0
-modified: 1690341238026
+modified: 1692049654790
 created: 1690339514623
-url: https://api.trello.com/1/boards/64bee589e73021f7b81e70bb/lists?name={{
-  _.ListName }}
+url: https://api.trello.com/1/boards/{{ _.id }}/lists?name={{ _.ListName }}
 name: Create List on a Board
 description: ""
 method: GET

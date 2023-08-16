@@ -1,10 +1,9 @@
 _id: req_af6f16fd9e9d45f2a03d2f6681a7ce1f
 type: Request
 parentId: fld_73ab50e1fa3e408a97aae412d18b5ed0
-modified: 1690235483573
+modified: 1691780594860
 created: 1690235392673
-url: https://api.trello.com/1/boards/{{ _.BoarId }}?key={{ _.Key }}&token={{
-  _.Token }}
+url: https://api.trello.com/1/boards/{{ _.id }}?key={{ _.Key }}&token={{ _.Token }}
 name: Update Board Name
 description: ""
 method: PUT
