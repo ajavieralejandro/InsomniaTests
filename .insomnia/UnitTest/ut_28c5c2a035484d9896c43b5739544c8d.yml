@@ -1,0 +1,13 @@
+_id: ut_28c5c2a035484d9896c43b5739544c8d
+type: UnitTest
+parentId: uts_be8bdb24d42e49b2be324479fd9a8598
+modified: 1692128066243
+created: 1692119181461
+requestId: req_a857dc61cb5e46509b4d0d4b457ef66c
+name: Get Lists of Labels
+code: |-
+  const response1 = await insomnia.send();
+  expect(response1.status).to.equal(200);
+  const body = JSON.parse(response1.data);
+
+  expect(body).to.be.an('array');

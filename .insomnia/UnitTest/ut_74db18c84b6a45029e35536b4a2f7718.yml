@@ -1,0 +1,10 @@
+_id: ut_74db18c84b6a45029e35536b4a2f7718
+type: UnitTest
+parentId: uts_be8bdb24d42e49b2be324479fd9a8598
+modified: 1692135820451
+created: 1692135537504
+requestId: req_0dec7f6eacee4759ad601a895a59b248
+name: Get Board with Invalid Id
+code: |-
+  const response1 = await insomnia.send();
+  expect(response1.status).to.equal(400);

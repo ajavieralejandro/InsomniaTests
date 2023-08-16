@@ -1,0 +1,10 @@
+_id: ut_2eab75002f6e49b1924397bffc2e0a4f
+type: UnitTest
+parentId: uts_be8bdb24d42e49b2be324479fd9a8598
+modified: 1692135804833
+created: 1692135524661
+requestId: req_d2442812fa4c4338a8a6a12736ec96bf
+name: Get Board With no ID
+code: |-
+  const response1 = await insomnia.send();
+  expect(response1.status).to.equal(404);

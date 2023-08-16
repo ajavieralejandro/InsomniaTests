@@ -1,0 +1,13 @@
+_id: ut_fd9e4b6d455b4da9b8dabbf0cdd0e333
+type: UnitTest
+parentId: uts_be8bdb24d42e49b2be324479fd9a8598
+modified: 1692119082671
+created: 1692118722609
+requestId: req_134c62c02c6b4fee839a865cba8451a3
+name: Get Closed Lists
+code: |-
+  const response1 = await insomnia.send();
+  expect(response1.status).to.equal(200);
+  const body = JSON.parse(response1.data);
+
+  expect(body).to.be.an('array');

@@ -1,0 +1,10 @@
+_id: ut_ba2b0104ca4247b3bf8bddfc4f663d17
+type: UnitTest
+parentId: uts_be8bdb24d42e49b2be324479fd9a8598
+modified: 1692128097420
+created: 1692119192328
+requestId: req_4e81a94f664c447780c461dacfc995a0
+name: Get Member of a Board
+code: |-
+  const response1 = await insomnia.send();
+  expect(response1.status).to.equal(200);

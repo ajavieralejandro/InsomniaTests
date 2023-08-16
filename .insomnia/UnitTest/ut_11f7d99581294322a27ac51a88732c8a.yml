@@ -1,0 +1,10 @@
+_id: ut_11f7d99581294322a27ac51a88732c8a
+type: UnitTest
+parentId: uts_be8bdb24d42e49b2be324479fd9a8598
+modified: 1692049527739
+created: 1692049524454
+requestId: req_68640ffe5aeb4be1917c200b336783a1
+name: Get Board Desc
+code: |-
+  const response1 = await insomnia.send();
+  expect(response1.status).to.equal(200);

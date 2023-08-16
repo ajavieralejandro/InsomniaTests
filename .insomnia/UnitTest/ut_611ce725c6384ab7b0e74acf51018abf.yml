@@ -1,0 +1,13 @@
+_id: ut_611ce725c6384ab7b0e74acf51018abf
+type: UnitTest
+parentId: uts_be8bdb24d42e49b2be324479fd9a8598
+modified: 1692049901936
+created: 1692049801022
+requestId: req_fe18b9f54d1049d1b7f69440c8a5c3aa
+name: Get Lists on the Board
+code: |
+  const response1 = await insomnia.send();
+  expect(response1.status).to.equal(200);
+  const body = JSON.parse(response1.data);
+
+  expect(body).to.be.an('array');

@@ -1,0 +1,10 @@
+_id: ut_dbd30943a42e4a93877fa232fb7f05a7
+type: UnitTest
+parentId: uts_be8bdb24d42e49b2be324479fd9a8598
+modified: 1692135883244
+created: 1692135580400
+requestId: req_75da7cd81fa145c2b0dd684653ba5ea0
+name: Unauthorized Get Board
+code: |-
+  const response1 = await insomnia.send();
+  expect(response1.status).to.equal(400);

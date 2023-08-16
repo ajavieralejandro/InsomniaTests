@@ -1,0 +1,10 @@
+_id: ut_08726e8e54524f7c97a7d11b047d3285
+type: UnitTest
+parentId: uts_be8bdb24d42e49b2be324479fd9a8598
+modified: 1692134055170
+created: 1692127541042
+requestId: req_3ac8e9d4a86e42bf9b08c91aa6ff9599
+name: Update Board with Invalid Name
+code: |-
+  const response1 = await insomnia.send();
+  expect(response1.status).to.equal(400);

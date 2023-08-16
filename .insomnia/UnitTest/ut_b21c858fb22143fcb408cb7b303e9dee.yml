@@ -1,0 +1,10 @@
+_id: ut_b21c858fb22143fcb408cb7b303e9dee
+type: UnitTest
+parentId: uts_be8bdb24d42e49b2be324479fd9a8598
+modified: 1692128322767
+created: 1692119218691
+requestId: req_60c78eb9c6064c93b82350609b0edc48
+name: Get Cards on a Board
+code: |-
+  const response1 = await insomnia.send();
+  expect(response1.status).to.equal(200);

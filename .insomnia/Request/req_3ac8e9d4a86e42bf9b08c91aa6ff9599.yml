@@ -1,0 +1,28 @@
+_id: req_3ac8e9d4a86e42bf9b08c91aa6ff9599
+type: Request
+parentId: fld_2a188228a03a40d19787bb00307bf3f1
+modified: 1691780249827
+created: 1691780158476
+url: https://api.trello.com/1/boards/{{ _.id }}?key={{ _.Key }}&token={{ _.Token }}
+name: Update a Board with Invalid Name
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name" : 123
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1691780158476
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

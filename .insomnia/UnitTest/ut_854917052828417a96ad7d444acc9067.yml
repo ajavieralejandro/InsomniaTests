@@ -1,0 +1,13 @@
+_id: ut_854917052828417a96ad7d444acc9067
+type: UnitTest
+parentId: uts_be8bdb24d42e49b2be324479fd9a8598
+modified: 1692128048860
+created: 1692119168457
+requestId: req_04ed9cf0916e469fa64f2dc73b45fb32
+name: Create Label On a Board
+code: |-
+  const response1 = await insomnia.send();
+  expect(response1.status).to.equal(200);
+  const body = JSON.parse(response1.data);
+
+  expect(body).to.be.an('object');

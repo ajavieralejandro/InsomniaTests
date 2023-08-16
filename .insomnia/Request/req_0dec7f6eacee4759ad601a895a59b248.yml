@@ -1,0 +1,22 @@
+_id: req_0dec7f6eacee4759ad601a895a59b248
+type: Request
+parentId: fld_2a188228a03a40d19787bb00307bf3f1
+modified: 1691780307268
+created: 1691780261893
+url: https://api.trello.com/1/boards/{{ _.InvalidId }}?key={{ _.Key }}&token={{
+  _.Token }}
+name: Delete a Board with Invalid Id
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1691780261893
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

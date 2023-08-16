@@ -1,0 +1,15 @@
+_id: ut_e9674132612c41db907eb0e7c2649be4
+type: UnitTest
+parentId: uts_be8bdb24d42e49b2be324479fd9a8598
+modified: 1691780952423
+created: 1691780935871
+requestId: req_140afdc18f6547bfa4ad20711e3ae8d7
+name: Update Board Desc
+code: |
+  const response1 = await insomnia.send();
+  expect(response1.status).to.equal(200);
+
+
+  const body = JSON.parse(response1.data);
+  const item = body.name;
+  expect(item).to.equal("Javier Board");

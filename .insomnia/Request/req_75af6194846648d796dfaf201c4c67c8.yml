@@ -1,0 +1,29 @@
+_id: req_75af6194846648d796dfaf201c4c67c8
+type: Request
+parentId: fld_2a188228a03a40d19787bb00307bf3f1
+modified: 1691780097219
+created: 1691777526457
+url: https://api.trello.com/1/boards/?{{ _.InvalidName }}
+name: Create Board with Invalid Name
+description: ""
+method: POST
+body: {}
+parameters:
+  - id: pair_dfe6f0625a6e4e30b1499a1cc8df6d67
+    name: key
+    value: "{{ _.Key }}"
+    description: ""
+  - id: pair_f3eb2e6996214e949606a808ef879e15
+    name: token
+    value: "{{ _.Token }}"
+    description: ""
+headers: []
+authentication: {}
+metaSortKey: -1691777526457
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

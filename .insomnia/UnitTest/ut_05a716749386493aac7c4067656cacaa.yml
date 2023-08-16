@@ -1,0 +1,10 @@
+_id: ut_05a716749386493aac7c4067656cacaa
+type: UnitTest
+parentId: uts_be8bdb24d42e49b2be324479fd9a8598
+modified: 1692049586149
+created: 1692049581478
+requestId: req_2642732b1bd249cbb23ac54fd4dc8848
+name: Create List on a Board
+code: |-
+  const response1 = await insomnia.send();
+  expect(response1.status).to.equal(200);

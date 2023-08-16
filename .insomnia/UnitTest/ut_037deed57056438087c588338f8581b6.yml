@@ -1,0 +1,10 @@
+_id: ut_037deed57056438087c588338f8581b6
+type: UnitTest
+parentId: uts_be8bdb24d42e49b2be324479fd9a8598
+modified: 1692135870652
+created: 1692135566899
+requestId: req_60e8567c0e144dba81cb504f9597b9b4
+name: Invalid Key Create Board
+code: |-
+  const response1 = await insomnia.send();
+  expect(response1.status).to.equal(401);

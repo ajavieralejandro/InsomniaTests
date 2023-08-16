@@ -1,0 +1,22 @@
+_id: req_e039ce25c3fb4012893bb35a878f9e0f
+type: Request
+parentId: fld_2a188228a03a40d19787bb00307bf3f1
+modified: 1691780534948
+created: 1691780438628
+url: https://api.trello.com/1/boards/{{ _.id }}?key={{ _.Key }}&token={{
+  _['Invalid Token'] }}
+name: Update a Board with Invalid Token
+description: ""
+method: PUT
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1691771553333
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

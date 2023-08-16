@@ -1,0 +1,10 @@
+_id: ut_35ae82ba1601409aa12137ebfc03b798
+type: UnitTest
+parentId: uts_be8bdb24d42e49b2be324479fd9a8598
+modified: 1692149399329
+created: 1692135594925
+requestId: req_e039ce25c3fb4012893bb35a878f9e0f
+name: Update Board with Invalid Token
+code: |-
+  const response1 = await insomnia.send();
+  expect(response1.status).to.equal(401);

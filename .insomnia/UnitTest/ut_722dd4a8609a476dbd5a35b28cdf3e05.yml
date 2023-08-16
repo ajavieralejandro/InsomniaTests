@@ -1,0 +1,10 @@
+_id: ut_722dd4a8609a476dbd5a35b28cdf3e05
+type: UnitTest
+parentId: uts_be8bdb24d42e49b2be324479fd9a8598
+modified: 1692129520341
+created: 1692119229107
+requestId: req_441c116013b84dc4a1976e52b272bcea
+name: Delete Board
+code: |-
+  const response1 = await insomnia.send();
+  expect(response1.status).to.equal(200);

@@ -1,0 +1,10 @@
+_id: ut_9c1d3c195cf74634a53648992b2afbdc
+type: UnitTest
+parentId: uts_be8bdb24d42e49b2be324479fd9a8598
+modified: 1692134047311
+created: 1692127970660
+requestId: req_c71cb704963144aa96ca0db43f3e27a8
+name: Update Board With invalid Value for desc
+code: |-
+  const response1 = await insomnia.send();
+  expect(response1.status).to.equal(400);

@@ -1,0 +1,10 @@
+_id: ut_deba1dddad7d4406b7a576a4408fd91d
+type: UnitTest
+parentId: uts_be8bdb24d42e49b2be324479fd9a8598
+modified: 1692134019728
+created: 1692119268628
+requestId: req_0dec7f6eacee4759ad601a895a59b248
+name: Delete a Board with Invalid Id
+code: |-
+  const response1 = await insomnia.send();
+  expect(response1.status).to.equal(400);
