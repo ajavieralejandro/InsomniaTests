@@ -1,0 +1,28 @@
+_id: req_c5d781a0aac84dc0a4846e7aedb3b32c
+type: Request
+parentId: fld_dd1bf78c23e541cbb41fff30742bb762
+modified: 1702328332395
+created: 1702327818474
+url: https://main--spacex-l4uc6p.apollographos.net/graphql
+name: GetAllRockets
+description: ""
+method: POST
+body:
+  mimeType: application/graphql
+  text: '{"query":"query Rockets {\n  rockets
+    {\n    id\n    name\n    stages\n    type\n  }\n}","operationName":"Rockets"}'
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1702327818474
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

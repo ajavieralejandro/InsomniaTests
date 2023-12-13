@@ -1,0 +1,10 @@
+_id: ut_94810c822575460990ef1c264c969042
+type: UnitTest
+parentId: uts_f77b7663066d46fc909c66216d27365a
+modified: 1702330494187
+created: 1702330484958
+requestId: req_5d179134d2104c0d88c6fb7edd966ae9.graphql
+name: GetCompanyInfoTests
+code: |-
+  const response1 = await insomnia.send();
+  expect(response1.status).to.equal(200);

@@ -1,0 +1,37 @@
+_id: req_546f7be293014a74a086d772d5d01647
+type: Request
+parentId: fld_33b8c1b5bb8d4ef0aa5569b9d53729af
+modified: 1701137087086
+created: 1701136328640
+url: http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso
+name: List of Countries
+description: ""
+method: POST
+body:
+  mimeType: application/xml
+  text: >-
+    <?xml version="1.0" encoding="utf-8"?>
+
+    <soap12:Envelope xmlns:soap12="http://www.w3.org/2003/05/soap-envelope">
+      <soap12:Body>
+        <ListOfCountryNamesByName xmlns="http://www.oorsprong.org/websamples.countryinfo">
+        </ListOfCountryNamesByName>
+      </soap12:Body>
+    </soap12:Envelope>
+parameters: []
+headers:
+  - name: Content-Type
+    value: text/xml; charset=utf-8
+    id: pair_5b68daf3c2e249e597b8b4608bad9641
+  - name: User-Agent
+    value: insomnia/2023.5.8
+    id: pair_bd8d88370f9240aea269ed6ff457238e
+authentication: {}
+metaSortKey: -1701136328640
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,32 @@
+_id: req_7d6c97bed33d45f096fb071fc8e09451
+type: Request
+parentId: fld_dd1bf78c23e541cbb41fff30742bb762
+modified: 1702327881154
+created: 1701209445583
+url: https://main--spacex-l4uc6p.apollographos.net/graphql
+name: GetAllCapsules
+description: ""
+method: POST
+body:
+  mimeType: application/graphql
+  text: '{"query":"query Capsules {\n  capsules
+    {\n    id,\n\t  type\n  }\n}","operationName":"Capsules"}'
+parameters:
+  - id: pair_fd45176eada643659544bd2c3625530c
+    name: ""
+    value: ""
+    description: ""
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1701209445583
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

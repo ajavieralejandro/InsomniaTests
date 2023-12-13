@@ -1,0 +1,37 @@
+_id: req_83bb74787f7c4d9598c507fbfe4a5124
+type: Request
+parentId: fld_33b8c1b5bb8d4ef0aa5569b9d53729af
+modified: 1701137105780
+created: 1701136505869
+url: http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso
+name: Capital for a Country
+description: ""
+method: POST
+body:
+  mimeType: application/xml
+  text: |-
+    <?xml version="1.0" encoding="utf-8"?>
+    <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+      <soap:Body>
+        <CapitalCity xmlns="http://www.oorsprong.org/websamples.countryinfo">
+          <sCountryISOCode>US</sCountryISOCode>
+        </CapitalCity>
+      </soap:Body>
+    </soap:Envelope>
+parameters: []
+headers:
+  - name: Content-Type
+    value: text/xml; charset=utf-8
+    id: pair_e074bd1a92e245349165ebe78ea595ee
+  - name: User-Agent
+    value: insomnia/2023.5.8
+    id: pair_d3eb80eccbb4409ab8efab231cfad748
+authentication: {}
+metaSortKey: -1701136328540
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

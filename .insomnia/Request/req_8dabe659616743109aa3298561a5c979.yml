@@ -1,0 +1,28 @@
+_id: req_8dabe659616743109aa3298561a5c979
+type: Request
+parentId: fld_dd1bf78c23e541cbb41fff30742bb762
+modified: 1702328441017
+created: 1702327846441
+url: https://main--spacex-l4uc6p.apollographos.net/graphql
+name: GetAllMission
+description: ""
+method: POST
+body:
+  mimeType: application/graphql
+  text: '{"query":"query Missions {\n  missions
+    {\n    description\n    id\n    manufacturers\n    name\n    website\n  }\n}","operationName":"Missions"}'
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1702327846441
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

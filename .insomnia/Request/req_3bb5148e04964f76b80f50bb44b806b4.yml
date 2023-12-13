@@ -1,0 +1,37 @@
+_id: req_3bb5148e04964f76b80f50bb44b806b4
+type: Request
+parentId: fld_33b8c1b5bb8d4ef0aa5569b9d53729af
+modified: 1702332408647
+created: 1701137000745
+url: http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso
+name: Currency
+description: ""
+method: POST
+body:
+  mimeType: application/xml
+  text: |-
+    <?xml version="1.0" encoding="utf-8"?>
+    <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+      <soap:Body>
+        <CapitalCity xmlns="http://www.oorsprong.org/websamples.countryinfo">
+          <sCountryISOCode>US</sCountryISOCode>
+        </CapitalCity>
+      </soap:Body>
+    </soap:Envelope>
+parameters: []
+headers:
+  - name: Content-Type
+    value: text/xml; charset=utf-8
+    id: pair_2fd8c5f8c51d45e5ad50ddb7c08e00ef
+  - name: User-Agent
+    value: insomnia/2023.5.8
+    id: pair_63e61ee8be2945c59b33c07498ee4a4d
+authentication: {}
+metaSortKey: -1701137000745
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

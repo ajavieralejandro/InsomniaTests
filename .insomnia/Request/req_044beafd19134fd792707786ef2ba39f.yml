@@ -1,0 +1,43 @@
+_id: req_044beafd19134fd792707786ef2ba39f
+type: Request
+parentId: fld_33b8c1b5bb8d4ef0aa5569b9d53729af
+modified: 1702332537231
+created: 1701137003783
+url: http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso
+name: "International Phone "
+description: ""
+method: POST
+body:
+  mimeType: application/xml
+  text: >-
+    <?xml version="1.0" encoding="utf-8"?>
+
+    <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+      <soap:Body>
+        <CountryIntPhoneCode xmlns="http://www.oorsprong.org/websamples.countryinfo">
+          <sCountryISOCode>AR</sCountryISOCode>
+        </CountryIntPhoneCode>
+      </soap:Body>
+    </soap:Envelope>
+parameters: []
+headers:
+  - name: Content-Type
+    value: text/xml; charset=utf-8
+    id: pair_be19a71676234f458fe024b6c6fee426
+  - name: User-Agent
+    value: text/xml; charset=utf-8
+    id: pair_5b7f58e172e542fdaffc60bab3d00f90
+    disabled: true
+  - id: pair_1f5fea0b1d264805b797afc0fb0f9796
+    name: ""
+    value: ""
+    description: ""
+authentication: {}
+metaSortKey: -1701137003783
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

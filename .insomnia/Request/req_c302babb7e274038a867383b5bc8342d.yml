@@ -1,0 +1,37 @@
+_id: req_c302babb7e274038a867383b5bc8342d
+type: Request
+parentId: fld_33b8c1b5bb8d4ef0aa5569b9d53729af
+modified: 1702332488951
+created: 1701137068325
+url: http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso
+name: Flag for a Contry
+description: ""
+method: POST
+body:
+  mimeType: application/xml
+  text: |-
+    <?xml version="1.0" encoding="utf-8"?>
+    <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+      <soap:Body>
+        <CountryFlag xmlns="http://www.oorsprong.org/websamples.countryinfo">
+          <sCountryISOCode>US</sCountryISOCode>
+        </CountryFlag>
+      </soap:Body>
+    </soap:Envelope>
+parameters: []
+headers:
+  - name: Content-Type
+    value: text/xml; charset=utf-8
+    id: pair_68271ac7423946e9b0f276e5b1e7b139
+  - name: User-Agent
+    value: text/xml; charset=utf-8
+    id: pair_a84874d46a7e4120ba3a3964d5fc9012
+authentication: {}
+metaSortKey: -1701137068325
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

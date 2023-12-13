@@ -1,0 +1,28 @@
+_id: req_5d179134d2104c0d88c6fb7edd966ae9
+type: Request
+parentId: fld_dd1bf78c23e541cbb41fff30742bb762
+modified: 1702328172420
+created: 1702327241841
+url: https://main--spacex-l4uc6p.apollographos.net/graphql
+name: GeyCompanyInfo
+description: ""
+method: POST
+body:
+  mimeType: application/graphql
+  text: '{"query":"query ExampleQuery {\n  company {\n    ceo\n  }\n  roadster
+    {\n    apoapsis_au\n  }\n}\n","operationName":"ExampleQuery"}'
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1702327241841
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
